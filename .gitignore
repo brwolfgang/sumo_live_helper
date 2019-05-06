@@ -234,3 +234,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,vuejs,macos,windows,intellij
+
+/node_modules
+/*.log
+/dist
+/dist-zip
