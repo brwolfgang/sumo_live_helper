@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="preferencesTitle" data-i18n="preferences"></title>
-    <link rel="shortcut icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="../res/icons/favicon.ico" type="image/x-icon"/>
-    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../css/popup.css" rel="stylesheet"/>
-    <link href="../css/style.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../icons/favicon.ico" type="image/x-icon" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/popup.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
     <script src="../js/jquery-3.3.1.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/bootbox.min.js"></script>
-<!--    <script src="../js/background.js"></script>-->
-</head>
+    <!--    <script src="../js/background.js"></script>-->
+  </head>
 
-<body class="col-md-12">
-<main>
-    <header>
+  <body class="col-md-12">
+    <main>
+      <header>
         <nav class="icons">
-            <ul>
-                <div>
-                    <img src="../res/icons/icon.png" style="float:left; padding-right:10px;margin-top:-17px;"><h4><strong id="pageTitle" data-i18n="version"></strong></h4>
-                </div>
-            </ul>
+          <ul>
+            <div>
+              <img src="../icons/icon.png" style="float:left; padding-right:10px;margin-top:-17px;" />
+              <h4><strong id="pageTitle" data-i18n="version"></strong></h4>
+            </div>
+          </ul>
         </nav>
-    </header>
-    <fieldset class="col-md-12">
+      </header>
+      <fieldset class="col-md-12">
         <div>
-            <h4><strong id="settings" data-i18n="settings"></strong></h4>
+          <h4><strong id="settings" data-i18n="settings"></strong></h4>
         </div>
-        <br>
+        <br />
         <div>
-            <form>
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="buscarQuestoesAtivamente">
-                    <label class="custom-control-label" data-i18n="watch_questions" for="buscarQuestoesAtivamente"></label>
-                    <small class="form-text text-muted">Determina se o Sumo Live Helper deve procurar novas questões automaticamente</small>
-                </div>
-                <div class="form-group">
-                    <label data-i18n="polling" for="frequenciaBuscaQuestoes" style="margin-top:10px;"></label>
-                    <select class="form-control" id="frequenciaBuscaQuestoes">
-                        <option>5</option>
-                        <option>10</option>
-                        <option>15</option>
-                        <option>20</option>
-                        <option>25</option>
-                        <option>30</option>
-                    </select>
-                    <small class="form-text text-muted">Determina a frequência que o Sumo Live Helper deve buscar atualizações sobre questões.</small>
-                </div>
-                
-                <div class="col-md-12" style="text-align: center">
-                    <button type="submit" class="btn btn-primary">Salvar Preferências</button>
-                </div>
+          <form>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="buscarQuestoesAtivamente" />
+              <label class="custom-control-label" data-i18n="watch_questions" for="buscarQuestoesAtivamente"></label>
+              <small class="form-text text-muted">Determina se o Sumo Live Helper deve procurar novas questões automaticamente </small>
+            </div>
+            <div class="form-group">
+              <label data-i18n="polling" for="frequenciaBuscaQuestoes" style="margin-top:10px;"></label>
+              <select class="form-control" id="frequenciaBuscaQuestoes">
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+                <option>25</option>
+                <option>30</option>
+              </select>
+              <small class="form-text text-muted">Determina a frequência que o Sumo Live Helper deve buscar atualizações sobre questões. </small>
+            </div>
+
+            <div class="col-md-12" style="text-align: center">
+              <button type="submit" class="btn btn-primary">Salvar Preferências</button>
+            </div>
+          </form>
         </div>
-    </fieldset>
-    <script src= "../js/language.js"></script>
-    <script src="../js/preferences.js"></script>
-</body>
+      </fieldset>
+      <script src="../js/language.js"></script>
+      <script src="../js/preferences.js"></script>
+    </main>
+  </body>
 </html>
