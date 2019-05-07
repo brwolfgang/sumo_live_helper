@@ -1,6 +1,6 @@
 {
-  "name": "Teste",
-  "description": "Teste",
+  "name": "Sumo Live Helper",
+  "description": "An Extension by the Mozilla Community",
   "version": "1.0.0",
   "manifest_version": 2,
   "author": "Mozilla Brasil asdf",
@@ -13,6 +13,7 @@
   },
   "options_ui": {
     "page": "/options/options.html",
+    "open_in_tab": true,
     "chrome_style": true
   },
   "permissions": ["tabs", "browserSettings", "activeTab", "storage"]

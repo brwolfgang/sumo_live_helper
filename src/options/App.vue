@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Hello world!</p>
+    <p>Esta é a tela de configurações!</p>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
 
 <style scoped>
 p {
-  font-size: 20px;
+  font-size: x-large;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 </style>
