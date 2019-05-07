@@ -1,42 +1,19 @@
 {
+  "name": "Teste",
+  "description": "Teste",
+  "version": "1.0.0",
   "manifest_version": 2,
-  "name": "__MSG_extensionName__",
-  "description": "__MSG_extensionDescription__",
-  "version": 1.0,
-  "default_locale": "pt-BR",
-  "author": "Mozilla Brasil",
-  "applications": {
-    "gecko": {
-      "strict_min_version": "58.0",
-      "id": "sumolivehelper@mozillabr.org"
-    }
-  },
+  "author": "Mozilla Brasil asdf",
   "icons": {
-    "64": "/res/icons/icon.png"
+    "64": "/icons/icon.png"
   },
   "browser_action": {
-    "browser_style":true,
-    "default_icon": {
-      "16": "/res/icons/icon-16.png",
-      "32": "/res/icons/icon-32.png"
-    },
     "default_title": "sumo_live_helper",
-    "default_popup": "popup/popup.html"
-  },
-  "background": {
-    "page": "/html/popup.html",
-    "scripts": [
-      "background.js"
-    ]
+    "default_popup": "/popup/popup.html"
   },
   "options_ui": {
-    "page": "options/options.html",
+    "page": "/options/options.html",
     "chrome_style": true
   },
-  "permissions": [
-    "tabs",
-    "browserSettings",
-    "activeTab",
-    "storage"
-  ]
+  "permissions": ["tabs", "browserSettings", "activeTab", "storage"]
 }
